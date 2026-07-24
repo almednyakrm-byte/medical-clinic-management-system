@@ -1,0 +1,51 @@
+{
+  "project_name": "نظام إدارة عيادات طبية مع حجز مواعيد ومراقبة سجلات المرضى",
+  "project_type": "medical_clinic_management",
+  "color_palette": "blue-500 and white",
+  "modules": [
+    "patients",
+    "appointments",
+    "doctors",
+    "medical_records"
+  ],
+  "pages": [
+    "index",
+    "login",
+    "register",
+    "patient_list",
+    "appointment_list",
+    "doctor_list",
+    "medical_record_list",
+    "patient_profile",
+    "appointment_schedule",
+    "doctor_profile"
+  ],
+  "permissions": {
+    "guest": [
+      "index",
+      "login",
+      "register"
+    ],
+    "user": [
+      "patient_list",
+      "appointment_list",
+      "doctor_list",
+      "medical_record_list",
+      "patient_profile",
+      "appointment_schedule",
+      "doctor_profile"
+    ],
+    "admin": [
+      "index",
+      "login",
+      "register",
+      "patient_list",
+      "appointment_list",
+      "doctor_list",
+      "medical_record_list",
+      "patient_profile",
+      "appointment_schedule",
+      "doctor_profile"
+    ]
+  }
+}
